@@ -2,8 +2,8 @@
 
 **Inline, function-level budget enforcement for LLM API calls.**
 
-Stop runaway spend *before* it happens — not after a platform billing alert
-emails you that you've already burned $500 on an infinite loop or a single
+Stop runaway spend *before* it happens - not after a platform billing alert
+emails you that you've already burned £500 on an infinite loop or a single
 heavy user query.
 
 ## The problem
