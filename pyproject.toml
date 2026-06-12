@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-budget-cap"
+version = "0.1.0"
+description = "Inline, function-level budget caps for LLM API calls — stop runaway spend before it happens."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [{ name = "Your Name" }]
+keywords = ["llm", "openai", "anthropic", "cost-control", "rate-limiting", "budget", "middleware"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/llm-budget-cap"
+Issues = "https://github.com/YOUR_USERNAME/llm-budget-cap/issues"
+
+[tool.setuptools.packages.find]
+include = ["llm_budget_cap*"]
